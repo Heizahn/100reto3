@@ -5,7 +5,6 @@
     border-bottom-left-radius: 40px;
     background-image: linear-gradient(to right , rgb(245, 166, 134) , rgb(245, 63, 63));
     justify-content: left;
-   
 }
 .imagen{
     width: 900px;
@@ -16,8 +15,10 @@
     display: flex;
 }
 
-
-
-
-
-    
+#cerrarHamburguesa{
+    display: none;
+}
+#listaButton{
+    display: none;
+    flex-direction: column;
+}
